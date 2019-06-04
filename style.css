@@ -1,0 +1,107 @@
+body {
+	position: relative; 
+	margin: auto 0;
+	font-family: cursive;
+}
+
+.navbar{
+	font-weight: 510;
+	font-size: 1.2em;
+	opacity: 0.85;
+	background-color: black;
+}
+
+#navigationbar{
+	padding: 20px 10px;
+}
+
+#about, #qualification, #projects{
+	padding: 50px;
+}
+
+#home{
+	height: 650px;
+}
+
+.jumbotron{
+	background-image: url(images/background.jpg);
+	background-position: center;
+	background-size: cover;
+	z-index: 0;
+}
+
+.jumbotron .container{
+	background-color: rgba(0,0,0,0.9);
+	text-align: center;
+	color: lightblue;
+	font-weight: bold;
+	position: absolute;
+	top: 7%;
+	left: 10%;
+	z-index: 2;
+	width: 80%;
+	padding: 100px 0;
+	border-radius: 5px;
+}
+
+.aboutme{
+	font-weight: 700;
+	font-size: 3em;
+	margin-bottom: 30px;
+	text-transform: uppercase;
+}
+
+#img-text{
+		text-align: center;
+}
+
+p{
+	font-size: 1.2em;
+}
+
+.logo{
+	margin: 5px;
+}
+
+#projects{
+	background-color: rgba(0,0,0,0.95);
+	color: whitesmoke;
+}
+
+.portfolio-img{
+	height: 200px;
+	width: 280px;
+	margin: 10px;
+	margin-bottom: 20px;
+	position: relative;
+	left: 15%;
+	border: 1px solid black;
+}
+
+footer{
+	height: 100px;
+	background-color: lightgrey;
+	text-align: center;
+	font-weight: 600
+}
+
+footer p{
+	position: relative;
+	top: 40px;
+}
+
+@media only screen and (max-width: 992px){
+	#img-text{
+		text-align: center;
+	}
+	#about, #projects{
+		padding: 60px 30px;
+		margin: 0 auto;
+	}
+}
+
+@media only screen and (max-width: 500px){
+	.portfolio-img{
+		position: static;
+	}
+}
