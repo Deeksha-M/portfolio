@@ -91,6 +91,9 @@ footer p{
 }
 
 @media only screen and (max-width: 992px){
+	#home{
+		height: 550px;
+	}
 	#img-text{
 		text-align: center;
 	}
