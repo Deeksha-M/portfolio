@@ -101,3 +101,8 @@ footer p{
 	}
 }
 
+@media only screen and (max-width: 500px){
+	.portfolio-img{
+		position: static;
+	}
+}
