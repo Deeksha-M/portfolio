@@ -68,6 +68,10 @@ p{
 	color: whitesmoke;
 }
 
+#img-text{
+		text-align: center;
+}
+
 .portfolio-img{
 	height: 200px;
 	width: 280px;
