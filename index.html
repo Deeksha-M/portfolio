@@ -1,0 +1,138 @@
+<!Doctype html>
+
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		
+		<title>Portfolio - Deeksha M</title>
+		
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+  		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+  		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+		<link href="style.css" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
+	</head>
+	
+	<body>
+		<header></header>
+		<nav role="navigation" class="navbar navbar-inverse navbar-fixed-top" id="navigationbar">
+			<div class="container-fluid">
+				<div class="navbar-header">
+					<a class="navbar-brand" href="#"><strong>DEEKSHA M</strong></a>
+					<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+						<span class="sr-only">Toggle Button</span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+				</div>
+				<div class="navbar-collapse collaspe navbar-right in" id="myNavbar">
+					<ul class="nav navbar-nav">
+						<li><a href="#home"><strong>HOME</strong></a></li>
+						<li><a href="#about"><strong>ABOUT ME</strong></a></li>
+						<li><a href="#projects"><strong>PORTFOLIO</strong></a></li>
+					</ul>
+				</div>
+			</div>
+		</nav>
+		
+		<div id="home" class="jumbotron">
+			<div class="container">
+				<h1>Aspiring Junior Developer</h1>
+				<h4>Passion for learning..</h4>
+			</div>
+		</div>
+		
+		<div id="about" class="container-fluid">
+			<h2 class="aboutme">About Me</h2>
+				<div>
+					<p>Few months back I had quit my full time job at an MNC (IT Consultant (Operations)) due to some personal reasons and also to learn something new. Decided to start my career as a developer and started learning required technologies one at a time. And I'm in love with this journey!</p>
+					<p>I'm a determined, dedicated, hard-working individual. At present my goal is to be a part of a great team, learn new technologies and to be a valuable employee to the organization.</p>
+					<p>Following are the list of my skills:</p>
+					<p class="text-muted"><strong>HTML5, CSS3, Javascript, jQuery, Bootstrap, C, C++, Data Structures and Algorithms.</strong></p>
+					<p>Hopefully many more will be added to the list soon.</p>
+					<p>
+						<a href="https://github.com/Deeksha-M" target="_blank"><img src="images/github.PNG" alt="GitHub Profile" height=50 width=50></a>
+						<a href="mailto:deeksha.manur@gmail.com" target="_top">
+							<img src="images/mail.PNG" alt="Mail Icon" height=40 width=40>
+							<span>deeksha.manur@gmail.com</span>
+						</a>
+					</p>
+				</div>
+		</div>
+		
+		<hr>
+		
+		<div id="projects" class="container-fluid">
+			<h2 class="aboutme">Portfolio</h2>
+			<p id="portfolio-text">Following are some of my pretty simple works. Please click on the image to visit the website. Source codes for the same is present on the <a href="https://github.com/Deeksha-M">GitHub.</a></p>
+			
+			<div class="col-md-4 col-sm-6 col-xs-12">
+				<a href="https://deeksha-m.github.io/RPS-Game/" target="_blank">
+					<img src="images/rps-game.PNG" alt="RPS_Game" class="portfolio-img">
+				</a>
+			</div>
+			
+			<div class="col-md-4 col-sm-6 col-xs-12">
+				<a href="https://deeksha-m.github.io/Reaction-tester/" target="_blank">
+					<img src="images/reactiontester.PNG" alt="Reaction Tester" class="portfolio-img">
+				</a>
+			</div>
+			
+			<div class="col-md-4 col-sm-6 col-xs-12">
+				<a href="https://deeksha-m.github.io/LibraryApp/" target="_blank">
+					<img src="images/library.PNG" alt="Library App" class="portfolio-img">
+				</a>
+			</div>
+			
+			<div class="col-md-4 col-sm-6 col-xs-12">
+				<a href="https://deeksha-m.github.io/Maths-Game/" target="_blank">
+					<img src="images/maths_game.PNG" alt="Maths-Game" class="portfolio-img">
+				</a>
+			</div>
+			<div class="col-md-4 col-sm-6 col-xs-12">
+				<a href="http://toddlerindev-com.stackstaging.com/" target="_blank">
+					<img src="images/tea.PNG" alt="Tea Website" class="portfolio-img">
+				</a>
+			</div>
+			<div class="col-md-4 col-sm-6 col-xs-12">
+				<a href="https://deeksha-m.github.io/Code-Player/" target="_blank">
+					<img src="images/codeplayer.PNG" alt="Code Player" class="portfolio-img">
+				</a>
+			</div>
+			
+			<div class="col-md-4 col-sm-6 col-xs-12">
+				<a href="https://deeksha-m.github.io/Maths-Website/" target="_blank">
+					<img src="images/maths-website.PNG" alt="Maths Website" class="portfolio-img">
+				</a>
+			</div>
+ 	 		
+			<div class="col-md-4 col-sm-6 col-xs-12">
+				<a href="https://deeksha-m.github.io/portfolio" target="_blank">
+					<img src="images/porfolio.PNG" alt="Portfolio" class="portfolio-img">
+				</a>
+			</div>
+		</div>
+		
+		<footer>
+			<p>Designed and developed by &copy; <a href="https://github.com/Deeksha-M">Deeksha M.</a> </p>
+		</footer>
+		<script>
+			window.onscroll = function() {scrollFunction()};
+
+			function scrollFunction() {
+  				if (document.body.scrollTop > 80 || document.documentElement.scrollTop > 80) {
+    				document.getElementById("navigationbar").style.padding = "10px 10px";
+					document.getElementById("navigationbar").style.opacity = "1";
+  				} else {
+    				document.getElementById("navigationbar").style.padding = "20px 10px";
+					document.getElementById("navigationbar").style.opacity = "0.85";
+					document.getElementById("navigationbar").style.backgroundColor = "black";
+  				}
+			}
+		</script>
+	</body>
+	
+</html>
